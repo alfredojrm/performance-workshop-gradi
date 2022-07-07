@@ -1,13 +1,17 @@
-module.exports = {
+var OFF = 0, WARN = 1, ERROR = 2;
+
+module.exports = exports = {
     "env": {
-        "browser": true,
-        "es2021": true
+        "es6": true
     },
+
+    "ecmaFeatures": {
+        // env=es6 doesn't include modules, which we are using
+        "modules": true
+    },
+
     "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
+
     "rules": {
         // Possible Errors (overrides from recommended set)
         "no-extra-parens": ERROR,
@@ -209,4 +213,4 @@ module.exports = {
         "spaced-comment": [ WARN, "always" ],
         "wrap-regex": WARN
     }
-}
+};
