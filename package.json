@@ -1,0 +1,23 @@
+{
+  "name": "performance-workshop-gradi",
+  "version": "1.0.0",
+  "description": "Probando Actions Code REview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredojrm/performance-workshop-gradi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredojrm/performance-workshop-gradi/issues"
+  },
+  "homepage": "https://github.com/alfredojrm/performance-workshop-gradi#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}
