@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alfredojrm/performance-workshop-gradi/issues"
   },
-  "homepage": "https://github.com/alfredojrm/performance-workshop-gradi#readme"
+  "homepage": "https://github.com/alfredojrm/performance-workshop-gradi#readme",
+  "dependencies": {
+    "eslint": "^8.19.0"
+  }
 }
